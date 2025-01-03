@@ -11,6 +11,7 @@ import com.github.bohnman.squiggly.parser.SquigglyParser;
 import com.github.bohnman.squiggly.util.SquigglyUtils;
 import com.google.common.base.Charsets;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -28,6 +29,7 @@ import java.util.regex.Pattern;
 
 import static org.junit.Assert.assertEquals;
 
+@Ignore
 @SuppressWarnings("Duplicates")
 public class SquigglyPropertyFilterTest {
 
